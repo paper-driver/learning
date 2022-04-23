@@ -131,10 +131,10 @@ SSO is an authentication / authorization flow through which a user can log into 
 
 ## ISAM and SAML
 ### SAML (Security Assertion Markup Language)
-SAML is an open standard used for authentication. Its primary role in online security is that it enables you to access multiple web applications using one set of login credentials. Based upon the xml format, web applications use SAML to transfer authentication data between two parties - the [_identify provider_](#Identity-Provider) (IdP) and the service provider (SP). [reference](https://www.onelogin.com/learn/saml)
+SAML is an open standard used for authentication. Its primary role in online security is that it enables you to access multiple web applications using one set of login credentials. Based upon the xml format, web applications use SAML to transfer authentication data between two parties - the [_identify provider_](#identity-provider) (IdP) and the service provider (SP). [reference](https://www.onelogin.com/learn/saml)
 
 ### ISAM
-is a suite of IBM middleware components that provides web portal protection using Identity Management. It provides an authentication and authorization solution while acting as a [_reverse proxy web server_](#Reverse_Proxy_Web_server).
+is a suite of IBM middleware components that provides web portal protection using Identity Management. It provides an authentication and authorization solution while acting as a [_reverse proxy web server_](#reverse-proxy-web-server).
 
 ### PingFederate
 is a self-hosted enterprise federation server that enables user authentication and single sign-on developed by Ping, similar to identity management system tools developed by Microsoft and Okta.
@@ -143,7 +143,7 @@ is a self-hosted enterprise federation server that enables user authentication a
 #### SSL vs TLS
 TLS (Transport Layer Security) is the successor of SSL (Secure Socket Layer).
 
-SSL/TLS is a protocol that secures the communication between client and server using public key and [_symmetric key cryptography_](#Private_Key).
+SSL/TLS is a protocol that secures the communication between client and server using public key and [_symmetric key cryptography_](#private-key).
 
 #### SSL/TLS Handshake
 Client and server come across each other for the first time. The handshake involves a number of steps that start from validating the identity of the other party and **concludes with the generation of a common key (secret key)**.
