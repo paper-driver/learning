@@ -174,7 +174,7 @@ Both of SSL and Token-based auth should be used based on your context. Two metho
 [reference](https://stackoverflow.com/questions/39741736/mutual-ssl-vs-token-based-auth)
 
 ## Terms
-### Identify Provider
+### Identity Provider
 is a service that stores and manage digital identities. [reference](https://www.okta.com/identity-101/why-your-company-needs-an-identity-provider/)
 
 ### Reverse Proxy Web server
